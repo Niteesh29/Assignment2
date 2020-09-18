@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;;
+}
+html
+{
+scroll-behavior: smooth;
+}
+.navbar
+{
+
+display: flex;
+align-items: center;
+justify-content: center;
+position: sticky;
+top: 0;
+cursor: pointer;
+}
+.nav-list{
+ 
+    width: 70%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .nav-list li a{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+  padding: 20px;
+  color:black;
+  }
+
+  .firstSection
+  {
+      display: flex;
+  }
+  .content 
+  {
+      width: 80%;
+      margin-left: 20%;
+  }
+
+  .img
+  {
+      padding: 15px;
+      border-radius: 30px;
+  }
+  .jumbotronContent
+  {
+      display: flex;
+  }
+  .firstBlock
+  {
+      padding: 10px;
+  }
+  .secondBlock
+  {
+    padding: 10px;
+  }
+  .thirdBlock
+  {
+    padding: 10px;
+  }
+
+  .icon
+  {
+     
+      margin-left: 150px;
+  }
+  .image1
+  {
+      border-radius: 50%;
+      position: relative;
+      top: -50px;
+      left: 0px;
+  }
+  .image2
+  {
+      border-radius: 50%;
+      position: relative;
+      top: -70px;
+      left: 850px;
+  }
+  .image3
+  {
+    border-radius: 50%;
+    position: relative;
+    left: 900px;
+    bottom: -50px;
+  }
